@@ -1,0 +1,10 @@
+SVN_EDITOR=/usr/bin/vim
+alias l="ls -lap"
+PS1='\n\[\033[33m\]\W\[\033[0m\] \$ '
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+export SVN_EDITOR
+
+export JAVA_HOME=/Library/Java/Home
+
+export PATH="$PATH:$JAVA_HOME/bin"
